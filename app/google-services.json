@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "819072740236",
+    "project_id": "she-safe-07",
+    "storage_bucket": "she-safe-07.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819072740236:android:b3014ecfeb6c4cf36e44a9",
+        "android_client_info": {
+          "package_name": "com.example.shesafe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8tqaUezpvZULELcC4EG3RGiENblvhPgk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819072740236:android:550d72013f3752786e44a9",
+        "android_client_info": {
+          "package_name": "com.womensafetyfrontend"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8tqaUezpvZULELcC4EG3RGiENblvhPgk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

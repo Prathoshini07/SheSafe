@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic Colors -->
+    <color name="black">#212121</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Primary Colors -->
+    <color name="primaryColor">#0D47A1</color>  <!-- Pastel Pink -->
+    <color name="primaryDarkColor">#7F2BC7</color>  <!-- Deep Purple -->
+    <color name="onPrimaryColor">#FFFFFF</color>  <!-- White Text on Primary -->
+
+    <!-- Secondary Colors -->
+    <color name="secondaryColor">#D9BBFF</color>  <!-- Soft Lavender -->
+    <color name="secondaryDarkColor">#572583</color>  <!-- Dark Purple -->
+    <color name="onSecondaryColor">#FFFFFF</color>  <!-- White Text on Secondary -->
+
+    <!-- Background and Foreground -->
+    <color name="backgroundColor">#2681FF</color>  <!-- Bright Blue -->
+    <color name="foregroundColor">#212121</color>  <!-- Standard Black -->
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    tools:context=".ContactsActivity">
+
+    <TextView
+        android:id="@+id/titleContacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emergency Contacts"
+        android:textColor="@color/onPrimaryColor"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061" />
+
+    <EditText
+        android:id="@+id/editTextGuardian1"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rounded_input"
+        android:hint="Guardian Name 1"
+        android:padding="12dp"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.162" />
+
+    <EditText
+        android:id="@+id/editTextPhone1"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rounded_input"
+        android:hint="Phone Number 1"
+        android:inputType="phone"
+        android:padding="12dp"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.326" />
+
+    <EditText
+        android:id="@+id/editTextGuardian2"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rounded_input"
+        android:hint="Guardian Name 2"
+        android:padding="12dp"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextPhone2"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rounded_input"
+        android:hint="Phone Number 2"
+        android:inputType="phone"
+        android:padding="12dp"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.687" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="349dp"
+        android:layout_height="73dp"
+        android:background="@drawable/rounded_button"
+        android:text="Save Contacts"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.884" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

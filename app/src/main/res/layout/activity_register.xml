@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    tools:context=".RegisterActivity">
+
+    <!-- Full Name -->
+
+    <!-- Email -->
+
+    <!-- Password -->
+
+    <!-- Register Button -->
+
+    <!-- Member Login Button -->
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Full Name"
+        android:inputType="text"
+        android:padding="15dp"
+        android:textColorHint="#B0C4DE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.114" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="196dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:textColorHint="#B0C4DE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textColorHint="#B0C4DE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.469" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="298dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/rounded_button"
+        android:padding="12dp"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.534" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="298dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="292dp"
+        android:background="@drawable/rounded_button_secondary"
+        android:padding="12dp"
+        android:text="Member Login"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.77" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

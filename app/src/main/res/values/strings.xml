@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">SheSafe</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">Welcome !</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be &gt;5 characters</string>
+    <string name="login_failed">Login failed</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_password">PasswordActivity</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="enter_your_mobile_number">Enter your Mobile Number</string>
+    <string name="signup_login">SignUp/LogIn</string>
+    <string name="Continue">Continue</string>
+    <string name="continue_with_google">Continue With Google</string>
+    <string name="a_4_digit_otp_has_been_sent_to_your_mobile_number">A 4 digit OTP has been sent to your mobile number</string>
+    <string name="verification">VERIFICATION</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="submit">Submit</string>
+    <string name="resend_otp">Resend OTP</string>
+
+    <string-array name="num">
+        <item>(+91) India</item>
+        <item>(+93) Afghanistan</item>
+        <item>(+61) Australia</item>
+        <item>(+880) Bangladesh</item>
+        <item>(+32) Belgium</item>
+        <item>(+975) Bhutan</item>
+        <item>(+55) Brazil</item>
+        <item>(+1) Canada</item>
+        <item>(+86) China</item>
+        <item>(+57) Colombia</item>
+        <item>(+45) Denmark</item>
+        <item>(+20) Egypt</item>
+    </string-array>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base Theme -->
+    <style name="Theme.SheSafe" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary Branding Colors -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
+        <item name="colorOnPrimary">@color/onPrimaryColor</item>
+
+        <!-- Secondary Branding Colors -->
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryDarkColor</item>
+        <item name="colorOnSecondary">@color/onSecondaryColor</item>
+
+        <!-- Background and Foreground -->
+        <item name="android:colorBackground">@color/backgroundColor</item>
+        <item name="android:colorForeground">@color/foregroundColor</item>
+    </style>
+</resources>
